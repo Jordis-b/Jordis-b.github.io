@@ -1,0 +1,101 @@
+/*Damit älterer Browser mit HTML5 klar kommen*/
+header, nav, section, article, aside, footer {
+	display: block;
+	background-color: #EFF6F8;
+	font-family: "Papyrus";
+}
+
+/* Jetzt geht es los: Schriftgröße und Schriftart */
+
+html {
+	font-size: 1em;
+	font-family: Verdana, sans-serif;
+}
+
+/* Damit die einzelnen Bereiche optisch gut unterschieden werden können, gibt es einen kleinen Rahmen */
+header,
+nav,
+section,
+aside,
+footer {
+	border-radius: 7px;
+	padding: 25px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+footer {
+	color: #ECC30B;
+}
+header {
+	background: #D0E5F1;
+}
+main {
+	display: flex;
+}
+nav {
+	width: 20%;
+	font-size: 2em;
+}
+article {
+	width: 60%;
+}
+aside {
+	max-width: 20%;
+}
+a {
+	text-decoration: none;
+	color: #D56062;
+}
+a:visited {
+	color: #ECC30B;
+}
+a:hover {
+	color: #067BC2;
+}
+a:active {
+	color: #84BCDA;
+}
+h1 {
+	color: #067BC2;
+}
+h2 {
+	color: #F37748;
+}
+h3 {
+	color: #F58C66;
+}
+h5 {
+	color: #F8A98C;
+}
+h4 {
+	color: #F69A79;
+}
+/* Text wird zentriert */
+footer, header {
+	text-align: center;
+}
+/* Bilder werden auf die volle Breite der Seite skaliert */
+img {
+  width: 100%;
+}
+video {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+.button2{
+	display:inline-block;
+	margin:20px;
+	text-decoration:none;
+	font-family: "Papyrus";
+	font-size:16px;
+	border:2px solid #CC3E40;
+	border-radius:5px;
+	color:#CC3E40;
+	background-color:#F2CFCF;
+	padding:3px 7px;
+}
+.button2:hover{
+	color:#F2CFCF;
+	background-color:#CC3E40;
+}
